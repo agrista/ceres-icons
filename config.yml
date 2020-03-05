@@ -1,6 +1,6 @@
 languageCode:           "en"
-title:                  "Bootstrap Icons"
-baseURL:                "https://icons.getbootstrap.com"
+title:                  "Ceres Icons"
+baseURL:                "https://icons.agrista.com"
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"
@@ -33,20 +33,16 @@ module:
       target:           static/favicon.ico
 
 params:
-  description:          "Official open source SVG icon library for Bootstrap"
+  description:          "SVG icon library for Agrista Ceres"
   social_image_path:    /assets/img/bootstrap-icons-social.png
 
-  package_version:      "1.0.0-alpha2"
-  package_repo:         "https://github.com/twbs/icons"
+  package_version:      "1.0.0-alpha"
+  package_repo:         "https://github.com/agrista/ceres-icons"
 
   current_version:      "4.4.1"
   docs_version:         "4.4"
 
-  main:                 "https://getbootstrap.com"
-  repo:                 "https://github.com/twbs/bootstrap"
-  twitter:              "getbootstrap"
-  slack:                "https://bootstrap-slack.herokuapp.com"
-  blog:                 "https://blog.getbootstrap.com"
-  expo:                 "https://expo.getbootstrap.com"
-  icons:                "https://icons.getbootstrap.com"
-  themes:               "https://themes.getbootstrap.com"
+  main:                 "https://agrista.com"
+  repo:                 "https://github.com/agrista/ceres"
+  twitter:              "agrista"
+  icons:                "https://icons.agrista.com"

@@ -13,6 +13,7 @@
     font-size: 3rem;
   }
 }
+
 .f3 {
   font-size: 1.25rem;
 
@@ -20,6 +21,7 @@
     font-size: 1.5rem;
   }
 }
+
 .f5 {
   font-size: 1rem;
 }
@@ -43,9 +45,15 @@
   }
 }
 
-.bi {
+.ci {
   display: inline-block;
   vertical-align: text-bottom;
+  --ci-path: #979B9D;
+  --ci-fill: white;
+}
+
+.ci-primary {
+  fill: #0d6efd;
 }
 
 .list:empty::before {

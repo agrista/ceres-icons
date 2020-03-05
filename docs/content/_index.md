@@ -4,32 +4,32 @@ layout: default
 
 ## Install
 
-Bootstrap Icons are published to npm, but they can also be manually downloaded if needed.
+Ceres Icons are currently not published to npm, but they can also be manually downloaded if needed.
 
 <div class="row my-4">
   <div class="col-md-6">
 {{< md >}}
 ### npm
-Install Bootstrap Icons via command line with npm.
+Install Ceres Icons via command line with npm (TODO).
 
 {{< highlight shell >}}
-npm install bootstrap-icons
+npm install @agrista/ceres-icons
 {{< /highlight >}}
 {{< /md >}}
   </div>
   <div class="col-md-6">
 {{< md >}}
 ### Download
-Our [releases](https://github.com/twbs/icons/releases/) are published to GitHub. All icon SVGs are included in the bundle, as well as license and readme files. Our `package.json` is also included, though our npm scripts are primarily available for our development workflows.
+Our [releases](https://github.com/agrista/ceres-icons/releases/) are published to GitHub. All icon SVGs are included in the bundle, as well as license and readme files. Our `package.json` is also included, though our npm scripts are primarily available for our development workflows.
 
-<a class="btn btn-outline-primary" href="https://github.com/twbs/icons/releases/latest/">Download latest ZIP</a>
+<a class="btn btn-outline-primary" href="https://github.com/agrista/ceres-icons/releases/latest/">Download latest ZIP</a>
 {{< /md >}}
   </div>
 </div>
 
 ## Usage
 
-Bootstrap Icons are SVGs, so you can include them into your HTML in a few ways depending on how your project is setup. Bootstrap Icons include a `width` and `height` of `1em` by default to allow for easy resizing via `font-size`.
+Ceres Icons are SVGs, so you can include them into your HTML in a few ways depending on how your project is setup. Ceres Icons include a `width` and `height` of `1em` by default to allow for easy resizing via `font-size`.
 
 <div class="row my-4">
   <div class="col-md-4 col-xl-3">
@@ -39,7 +39,7 @@ Embed your icons within the HTML of your page (as opposed to an external image f
 {{< /md >}}
   </div>
   <div class="col-md-8 col-xl-9">
-    {{< example >}}<svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg>{{< /example >}}
+    {{< example >}}<svg class="ci ci-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg>{{< /example >}}
   </div>
 </div>
 
@@ -47,7 +47,7 @@ Embed your icons within the HTML of your page (as opposed to an external image f
   <div class="col-md-4 col-xl-3">
 {{< md >}}
 ### External image
-Copy the Bootstrap icons SVGs to your directory of choice and reference them like normal images with the `<img>` element.
+Copy the Ceres icons SVGs to your directory of choice and reference them like normal images with the `<img>` element.
 {{< /md >}}
   </div>
   <div class="col-md-8 col-xl-9">

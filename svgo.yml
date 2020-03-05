@@ -30,7 +30,7 @@ plugins:
   - removeAttrs:
       attrs:
         - "data-name"
-        - "fill"
+#        - "fill"
   - removeComments: true
   - removeDesc: true
   - removeDoctype: true
