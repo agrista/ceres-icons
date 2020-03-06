@@ -51,7 +51,7 @@ Copy the Ceres icons SVGs to your directory of choice and reference them like no
 {{< /md >}}
   </div>
   <div class="col-md-8 col-xl-9">
-    {{< example >}}<img src="/assets/img/bootstrap.svg" alt="" width="32" height="32" title="Bootstrap">{{< /example >}}
+    {{< example >}}<img src="/assets/img/checkout.svg" alt="" width="20" height="20" title="Checkout">{{< /example >}}
   </div>
 </div>
 
